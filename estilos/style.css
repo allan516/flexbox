@@ -26,9 +26,8 @@ header > nav > a {
 }
 .flex-conteiner {
     min-height: 100vh;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-end;
+    margin: auto;
+    display: flex;
 }
 
 .fx {
@@ -36,11 +35,33 @@ header > nav > a {
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+section {
+    display: flex;  
+    flex-wrap: wrap;  
+}
+
+.ladoLado {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+div.column {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    order: 2;
 }
 
 .flex-itens {
-    background-color: greenyellow;
-    width: 30%;
+    background-color: rgb(70, 143, 211);
     margin: 10px;
     padding: 10px;
 }
