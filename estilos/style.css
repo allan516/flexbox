@@ -31,7 +31,7 @@ header > nav > a {
 }
 
 .fx {
-    border: 1px solid black;
+    
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
@@ -47,8 +47,8 @@ section {
 
 .ladoLado {
     border: 1px solid black;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     margin: 20px auto;
     text-align: center;
 }
@@ -57,6 +57,7 @@ div.column {
     max-width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     order: 2;
 }
 
@@ -64,6 +65,37 @@ div.column {
     background-color: rgb(70, 143, 211);
     margin: 10px;
     padding: 10px;
+}
+
+.galeria {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    min-width: 50px;
+    min-height: 150px;
+    border: 1px solid black;
+}
+
+.itensGaleria {
+    height: 50px;
+    min-width: 50px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.elementos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenCircular {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 100px 0;
 }
 
 footer {
